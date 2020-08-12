@@ -43,6 +43,7 @@
   },
   "devDependencies": {
     "@gluons/prettier-config": "^2.0.6",
+    "@types/autoprefixer": "^9.7.2",
     "@types/friendly-errors-webpack-plugin": "^0.1.2",
     "@types/node": "12",
     "@types/webpack": "^4.41.21",

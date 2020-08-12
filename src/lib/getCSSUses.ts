@@ -1,3 +1,4 @@
+import autoprefixer from 'autoprefixer';
 import { RuleSetUseItem } from 'webpack';
 
 /**
@@ -18,6 +19,13 @@ export default function getCSSUses(importLoaders = 1): RuleSetUseItem[] {
 		{
 			loader: 'postcss-loader',
 			options: {
+				plugins: [
+					autoprefixer({
+						overrideBrowserslist: [
+							'extends browserslist-config-vue'
+						]
+					})
+				],
 				sourceMap: true
 			}
 		}
