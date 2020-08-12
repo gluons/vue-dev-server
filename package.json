@@ -27,6 +27,7 @@
     "fibers": "^5.0.0",
     "friendly-errors-webpack-plugin": "^1.7.0",
     "html-webpack-plugin": "^4.3.0",
+    "moren": "^3.0.0",
     "postcss-loader": "^3.0.0",
     "pug": "^3.0.0",
     "pug-loader": "^2.4.0",

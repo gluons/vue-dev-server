@@ -5,6 +5,7 @@ dependencies:
   fibers: 5.0.0
   friendly-errors-webpack-plugin: 1.7.0_webpack@4.44.1
   html-webpack-plugin: 4.3.0_webpack@4.44.1
+  moren: 3.0.0
   postcss-loader: 3.0.0
   pug: 3.0.0
   pug-loader: 2.4.0_pug@3.0.0
@@ -1533,6 +1534,12 @@ packages:
     dev: true
     resolution:
       integrity: sha1-s2nW+128E+7PUk+RsHD+7cNXzzQ=
+  /deepmerge/3.3.0:
+    dev: false
+    engines:
+      node: '>=0.10.0'
+    resolution:
+      integrity: sha512-GRQOafGHwMHpjPx9iCvTgpu9NojZ49q794EEL94JVEw6VaeA8XTUyBKvAkOOjBX9oJNiV6G3P+T+tihFjo2TqA==
   /default-gateway/4.2.0:
     dependencies:
       execa: 1.0.0
@@ -3439,6 +3446,15 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-NKmAlESf6jMGym1++R0Ra7wvhV+wFW63FaSOFPwRahvea0gMUcGUhVeAg/0BC0wiv9ih5NYPB1Wn1UEI1/L+xQ==
+  /moren/3.0.0:
+    dependencies:
+      deepmerge: 3.3.0
+      nvl: 1.2.2
+    dev: false
+    engines:
+      node: '>=6'
+    resolution:
+      integrity: sha512-Y4X2q2xoMjDe8ZCTcICznwgHJYL3Frb7NCY/AU1e2HlMmMp+pJLy8tqb/qrOcs51n0NTpyYFQIGp/fkRcI3QBQ==
   /move-concurrently/1.0.1:
     dependencies:
       aproba: 1.2.0
@@ -3597,6 +3613,10 @@ packages:
     dev: false
     resolution:
       integrity: sha1-b2gragJ6Tp3fpFZM0lidHU5mnt4=
+  /nvl/1.2.2:
+    dev: false
+    resolution:
+      integrity: sha512-PgQkuTBUM2UfVInbH/t6BV0BoMmn9ctppJ7wqQoL/Nrxbh0BRSLVaUp31yDwYFrCwWmxgLbpBAPclFxnXPAC9g==
   /object-assign/4.1.1:
     dev: false
     engines:
@@ -5789,6 +5809,7 @@ specifiers:
   fibers: ^5.0.0
   friendly-errors-webpack-plugin: ^1.7.0
   html-webpack-plugin: ^4.3.0
+  moren: ^3.0.0
   postcss-loader: ^3.0.0
   prettier: ^2.0.5
   pug: ^3.0.0
