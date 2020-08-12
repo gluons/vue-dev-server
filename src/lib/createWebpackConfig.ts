@@ -11,6 +11,7 @@ import {
 import WebpackBar from 'webpackbar';
 
 import ReadyOptions from '../types/ReadyOptions';
+
 import stringifyDefine from './stringifyDefine';
 import getCSSUses from './getCSSUses';
 
