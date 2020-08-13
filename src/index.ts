@@ -9,6 +9,10 @@ import ReadyOptions from './types/ReadyOptions';
 import createWebpackConfig from './lib/createWebpackConfig';
 
 export const DefaultOptions: PartialDefaults<Options> = {
+	define: {
+		// Set `NODE_ENV` to 'development'
+		'process.env.NODE_ENV': 'development'
+	},
 	port: 8080,
 	open: true,
 	htmlTitle: 'Vue Dev Server',
@@ -16,9 +20,6 @@ export const DefaultOptions: PartialDefaults<Options> = {
 };
 
 export default async function serve(options: Options): Promise<void> {
-	// Set `NODE_ENV` to 'development'
-	process.env.NODE_ENV = 'development';
-
 	const finalOptions = moren(options, DefaultOptions) as ReadyOptions;
 	const { port } = finalOptions;
 	const webpackConfig = createWebpackConfig(finalOptions);
