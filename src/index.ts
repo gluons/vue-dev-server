@@ -10,7 +10,6 @@ import createWebpackConfig from './lib/createWebpackConfig';
 
 export const DefaultOptions: PartialDefaults<Options> = {
 	define: {
-		// Set `NODE_ENV` to 'development'
 		'process.env.NODE_ENV': 'development'
 	},
 	port: 8080,
