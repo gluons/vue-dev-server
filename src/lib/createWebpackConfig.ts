@@ -1,6 +1,6 @@
 import FriendlyErrorsWebpackPlugin from 'friendly-errors-webpack-plugin';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
-import { dirname, resolve } from 'path';
+import { dirname, join, resolve } from 'path';
 import terminalLink from 'terminal-link';
 import VueLoaderPlugin from 'vue-loader/lib/plugin';
 import {
@@ -90,7 +90,7 @@ export default function createWebpackConfig(
 		},
 		resolve: {
 			alias: {
-				vue$: `${vuePath}/vue.esm.js`,
+				vue$: join(vuePath, 'vue.esm.js'),
 				...finalAlias
 			},
 			extensions: ['.wasm', '.mjs', '.vue', '.ts', '.js', '.json']
