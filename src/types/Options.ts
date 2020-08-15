@@ -43,6 +43,14 @@ export default interface Options {
 	 */
 	open?: boolean;
 	/**
+	 * Copy dev server URL to clipboard.
+	 *
+	 * @type {boolean}
+	 * @default false
+	 * @memberof Options
+	 */
+	clipboard?: boolean;
+	/**
 	 * Title of development webpage
 	 *
 	 * @type {string}

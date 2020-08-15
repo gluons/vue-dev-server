@@ -1,4 +1,6 @@
+import clipboardy from 'clipboardy';
 import moren, { PartialDefaults } from 'moren';
+import opn from 'open';
 import webpack from 'webpack';
 import WebpackDevServer, {
 	Configuration as DevConfiguration
@@ -14,13 +16,15 @@ export const DefaultOptions: PartialDefaults<Options> = {
 	},
 	port: 8080,
 	open: true,
+	clipboard: false,
 	htmlTitle: 'Vue Dev Server',
 	webpackBarName: 'Vue Dev Server'
 };
 
 export default async function serve(options: Options): Promise<void> {
 	const finalOptions = moren(options, DefaultOptions) as ReadyOptions;
-	const { port } = finalOptions;
+	const { port, open, clipboard } = finalOptions;
+	const serverUrl = `http://localhost:${port}`;
 	const webpackConfig = createWebpackConfig(finalOptions);
 	const devConfig = webpackConfig.devServer as DevConfiguration;
 
@@ -38,4 +42,9 @@ export default async function serve(options: Options): Promise<void> {
 			}
 		});
 	});
+
+	await Promise.all<unknown>([
+		clipboard ? clipboardy.write(serverUrl) : Promise.resolve(),
+		open ? opn(serverUrl) : Promise.resolve()
+	]);
 }
