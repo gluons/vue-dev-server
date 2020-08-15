@@ -18,15 +18,7 @@ import getCSSUses from './getCSSUses';
 export default function createWebpackConfig(
 	options: ReadyOptions
 ): Configuration {
-	const {
-		entry,
-		alias,
-		define,
-		port,
-		open,
-		htmlTitle,
-		webpackBarName
-	} = options;
+	const { entry, alias, define, port, htmlTitle, webpackBarName } = options;
 
 	const vuePath = dirname(require.resolve('vue'));
 	const builtInAlias: Record<string, string> = {
@@ -128,10 +120,9 @@ export default function createWebpackConfig(
 		devServer: {
 			host: '0.0.0.0',
 			port,
-			http2: true,
 			hot: true,
 			inline: true,
-			open,
+			open: false,
 			noInfo: true
 		}
 	};
