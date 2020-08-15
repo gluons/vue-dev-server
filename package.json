@@ -6,7 +6,10 @@
     "access": "public"
   },
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "prebuild": "del-cli dist/",
+    "build": "tsc"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gluons/vue-dev-server.git"
@@ -55,6 +58,7 @@
     "@types/webpackbar": "^4.0.0",
     "@typescript-eslint/eslint-plugin": "^3.9.0",
     "@typescript-eslint/parser": "^3.9.0",
+    "del-cli": "^3.0.1",
     "eslint": "^7.6.0",
     "eslint-config-gluons": "^6.0.5",
     "prettier": "^2.0.5",
