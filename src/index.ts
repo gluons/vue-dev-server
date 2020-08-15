@@ -10,6 +10,8 @@ import Options from './types/Options';
 import ReadyOptions from './types/ReadyOptions';
 import createWebpackConfig from './lib/createWebpackConfig';
 
+export { Options };
+
 export const DefaultOptions: PartialDefaults<Options> = {
 	define: {
 		'process.env.NODE_ENV': 'development'
@@ -23,7 +25,12 @@ export const DefaultOptions: PartialDefaults<Options> = {
 
 export default async function serve(options: Options): Promise<void> {
 	const finalOptions = moren(options, DefaultOptions) as ReadyOptions;
-	const { port, open, clipboard } = finalOptions;
+	const { entry, port, open, clipboard } = finalOptions;
+
+	if (!entry) {
+		throw new Error('Missing "entry".');
+	}
+
 	const serverUrl = `http://localhost:${port}`;
 	const webpackConfig = createWebpackConfig(finalOptions);
 	const devConfig = webpackConfig.devServer as DevConfiguration;
