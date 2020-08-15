@@ -1,3 +1,6 @@
 {
-	"extends": "gluons/ts"
+	"extends": "gluons/ts",
+	"parserOptions": {
+		"project": "tsconfig-eslint.json"
+	}
 }
