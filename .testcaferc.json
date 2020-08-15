@@ -1,0 +1,6 @@
+{
+	"browsers": "firefox",
+	"src": ["test/*.testcafe.ts"],
+	"appCommand": "ts-node ./scripts/run.ts",
+	"appInitDelay": 60000
+}

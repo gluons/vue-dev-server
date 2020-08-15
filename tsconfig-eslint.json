@@ -3,6 +3,7 @@
 	"extends": "./tsconfig.json",
 	"include": [
 		"fixture",
+		"scripts",
 		"src",
 		"test"
 	]
