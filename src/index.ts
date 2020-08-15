@@ -48,3 +48,5 @@ export default async function serve(options: Options): Promise<void> {
 		open ? opn(serverUrl) : Promise.resolve()
 	]);
 }
+
+module.exports = serve;
