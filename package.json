@@ -2,6 +2,9 @@
   "name": "@gluons/vue-dev-server",
   "version": "0.0.1",
   "description": "A simple dev server for Vue.js.",
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "index.js",
   "scripts": {},
   "repository": {
