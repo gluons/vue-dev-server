@@ -9,6 +9,7 @@
   "scripts": {
     "prebuild": "del-cli dist/",
     "build": "tsc",
+    "pretest": "npm run build",
     "test": "testcafe"
   },
   "repository": {
