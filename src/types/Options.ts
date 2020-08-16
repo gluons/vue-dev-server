@@ -23,6 +23,7 @@ export default interface Options {
 	 * Define global constants which can be configured at compile time
 	 *
 	 * @type {Record<string, unknown>}
+	 * @default { 'process.env.NODE_ENV': 'development' }
 	 * @memberof Options
 	 */
 	define?: Record<string, unknown>;
