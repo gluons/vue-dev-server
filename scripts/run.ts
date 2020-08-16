@@ -1,4 +1,5 @@
 import { resolve } from 'path';
+import consola from 'consola';
 
 import serve from '../dist';
 
@@ -13,8 +14,8 @@ import serve from '../dist';
 			open: false
 		});
 
-		console.log('Server start.');
+		consola.success('Server start.');
 	} catch (err) {
-		console.error(err);
+		consola.error(err);
 	}
 })();
