@@ -5,7 +5,9 @@
   "publishConfig": {
     "access": "public"
   },
-  "main": "index.js",
+  "bin": "./dist/bin.js",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
   "scripts": {
     "prebuild": "del-cli dist/",
     "build": "tsc",
