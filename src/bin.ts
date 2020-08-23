@@ -2,6 +2,7 @@
 
 /* eslint-disable @typescript-eslint/no-unsafe-assignment, @typescript-eslint/no-unsafe-call, @typescript-eslint/no-unsafe-member-access */
 
+import consola from 'consola';
 import yargs from 'yargs';
 
 import Options from './types/Options';
@@ -42,7 +43,11 @@ const cliOptions: Options = {
 };
 
 (async function () {
-	const options = await loadConfig(cliOptions);
+	try {
+		const options = await loadConfig(cliOptions);
 
-	await serve(options);
+		await serve(options);
+	} catch (err) {
+		consola.error(err);
+	}
 })();

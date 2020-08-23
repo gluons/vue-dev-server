@@ -1,4 +1,5 @@
 import clipboardy from 'clipboardy';
+import consola from 'consola';
 import moren, { PartialDefaults } from 'moren';
 import opn from 'open';
 import webpack from 'webpack';
@@ -28,7 +29,9 @@ export default async function serve(options: Options): Promise<void> {
 	const { entry, port, open, clipboard } = finalOptions;
 
 	if (!entry) {
-		throw new Error('Missing "entry".');
+		consola.error('Missing "entry".');
+
+		return;
 	}
 
 	const serverUrl = `http://localhost:${port}`;
