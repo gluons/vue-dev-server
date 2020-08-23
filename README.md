@@ -41,7 +41,8 @@ Config file can be the file below:
 ---
 
 ### entry
-**Type:** `string`
+**Type:** `string`  
+**Required:** ✔
 
 Path to entry file.
 
@@ -57,25 +58,25 @@ Path aliases.
 Define global constants which can be configured at compile time.
 
 ### port
-Type: `number`  
-Default: `8080`
+**Type:** `number`  
+**Default:** `8080`
 
 Port of development server.
 
 ### open
-Type: `boolean`  
-Default: `true`
+**Type:** `boolean`  
+**Default:** `true`
 
 Open webpage in browser when server start.
 
 ### clipboard
-Type: `boolean`  
-Default: `false`
+**Type:** `boolean`  
+**Default:** `false`
 
 Copy dev server URL to clipboard.
 
 ### htmlTitle
-Type: `string`  
-Default: `'Vue Dev Server'`
+**Type:** `string`  
+**Default:** `'Vue Dev Server'`
 
 Title of development webpage.
