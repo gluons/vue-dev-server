@@ -1,4 +1,9 @@
 # Vue Dev Server
+
+[![GitHub](https://img.shields.io/github/license/gluons/vue-dev-server?style=flat-square)](./LICENSE)
+![GitHub top language](https://img.shields.io/github/languages/top/gluons/vue-dev-server?style=flat-square)
+[![Codacy branch grade](https://img.shields.io/codacy/grade/29cc5dc9c8ac4f5ca3ded76a0feda5ae/master?style=flat-square)](https://www.codacy.com/manual/gluons/vue-dev-server)
+
 A simple dev server for [Vue.js](https://vuejs.org/).
 
 ## Installation
