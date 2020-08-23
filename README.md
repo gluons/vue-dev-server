@@ -60,7 +60,7 @@ Define global constants which can be configured at compile time.
 Type: `number`  
 Default: `8080`
 
-Port of development server
+Port of development server.
 
 ### open
 Type: `boolean`  
