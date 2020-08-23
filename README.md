@@ -1,4 +1,7 @@
 # Vue Dev Server
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/258ad2d46d7d423da814890713e8fa7c)](https://app.codacy.com/manual/gluons/vue-dev-server?utm_source=github.com&utm_medium=referral&utm_content=gluons/vue-dev-server&utm_campaign=Badge_Grade_Dashboard)
+
 A simple dev server for [Vue.js](https://vuejs.org/).
 
 ## Installation
