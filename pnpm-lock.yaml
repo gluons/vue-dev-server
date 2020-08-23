@@ -3,6 +3,7 @@ dependencies:
   autoprefixer: 9.8.6
   browserslist-config-vue: 1.0.3
   clipboardy: 2.3.0
+  consola: 2.15.0
   cosmiconfig: 7.0.0
   css-loader: 4.2.1_webpack@4.44.1
   fibers: 5.0.0
@@ -37,7 +38,6 @@ devDependencies:
   '@types/yargs': 15.0.5
   '@typescript-eslint/eslint-plugin': 3.9.1_bfaa9f11a80e0b0e07bd4175641995de
   '@typescript-eslint/parser': 3.9.1_eslint@7.7.0+typescript@4.0.2
-  consola: 2.15.0
   del-cli: 3.0.1
   eslint: 7.7.0
   eslint-config-gluons: 6.0.5_57e603af4fe236f337723f45d3aabd47
@@ -2329,6 +2329,7 @@ packages:
     resolution:
       integrity: sha512-e54B99q/OUoH64zYYRf3HBP5z24G38h5D3qXu23JGRoigpX5Ss4r9ZnDk3g0Z8uQC2x2lPaJ+UlWBc1ZWBWdLg==
   /consola/2.15.0:
+    dev: false
     resolution:
       integrity: sha512-vlcSGgdYS26mPf7qNi+dCisbhiyDnrN1zaRbw3CSuc2wGOMEGGPsp46PdRG5gqXwgtJfjxDkxRNAgRPr1B77vQ==
   /console-browserify/1.2.0:
