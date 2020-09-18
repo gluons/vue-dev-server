@@ -1,6 +1,6 @@
 dependencies:
   '@endemolshinegroup/cosmiconfig-typescript-loader': 3.0.0_5683286f8b92b402089ea33eed6a4805
-  autoprefixer: 9.8.6
+  autoprefixer: 10.0.0
   browserslist-config-vue: 1.0.3
   clipboardy: 2.3.0
   consola: 2.15.0
@@ -1036,19 +1036,22 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==
-  /autoprefixer/9.8.6:
+  /autoprefixer/10.0.0:
     dependencies:
-      browserslist: 4.14.0
-      caniuse-lite: 1.0.30001112
+      browserslist: 4.14.3
+      caniuse-lite: 1.0.30001131
       colorette: 1.2.1
       normalize-range: 0.1.2
       num2fraction: 1.2.2
-      postcss: 7.0.32
       postcss-value-parser: 4.1.0
     dev: false
+    engines:
+      node: ^10 || ^12 || >=14
     hasBin: true
+    peerDependencies:
+      postcss: ^8.0.2
     resolution:
-      integrity: sha512-XrvP4VVHdRBCdX1S3WXVD8+RyG9qeb1D5Sn1DeLiG2xfSpzellk5k54xbUERJ3M5DggQxes39UGOTP8CFrEGbg==
+      integrity: sha512-rFlVYthz6Iw0LhEYryiGGyjTGofebWie3ydvtqTCJiwWe+z6y8H35b4cadYbOUcYlP495TNeVktW+ZZqxbPW4Q==
   /babel-code-frame/6.26.0:
     dependencies:
       chalk: 1.1.3
@@ -1896,18 +1899,18 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-WHVocJYavUwVgVViC0ORikPHQquXwVh939TaelZ4WDqpWgTX/FsGhl/+P4qBUAGcRvtOgDgC+xftNWWp2RUTAQ==
-  /browserslist/4.14.0:
+  /browserslist/4.14.3:
     dependencies:
-      caniuse-lite: 1.0.30001112
-      electron-to-chromium: 1.3.527
-      escalade: 3.0.2
-      node-releases: 1.1.60
+      caniuse-lite: 1.0.30001131
+      electron-to-chromium: 1.3.570
+      escalade: 3.1.0
+      node-releases: 1.1.61
     dev: false
     engines:
       node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7
     hasBin: true
     resolution:
-      integrity: sha512-pUsXKAF2lVwhmtpeA3LJrZ76jXuusrNyhduuQs7CDFf9foT4Y38aQOserd2lMe5DSSrjf3fx34oHwryuvxAUgQ==
+      integrity: sha512-GcZPC5+YqyPO4SFnz48/B0YaCwS47Q9iPChRGi6t7HhflKBcINzFrJvRfC+jp30sRMKxF+d4EHGs27Z0XP1NaQ==
   /buffer-from/1.1.1:
     resolution:
       integrity: sha512-MQcXEUbCKtEo7bhqEs6560Hyd4XaovZlO/k9V3hjVUF/zwW7KBVdSK4gIt/bzwS9MbR5qob+F5jusZsb0YQK2A==
@@ -2054,14 +2057,14 @@ packages:
       node: '>=10'
     resolution:
       integrity: sha512-8KMDF1Vz2gzOq54ONPJS65IvTUaB1cHJ2DMM7MbPmLZljDH1qpzzLsWdiN9pHh6qvkRVDTi/07+eNGch/oLU4w==
-  /caniuse-lite/1.0.30001112:
-    dev: false
-    resolution:
-      integrity: sha512-J05RTQlqsatidif/38aN3PGULCLrg8OYQOlJUKbeYVzC2mGZkZLIztwRlB3MtrfLmawUmjFlNJvy/uhwniIe1Q==
   /caniuse-lite/1.0.30001114:
     dev: true
     resolution:
       integrity: sha512-ml/zTsfNBM+T1+mjglWRPgVsu2L76GAaADKX5f4t0pbhttEp0WMawJsHDYlFkVZkoA+89uvBRrVrEE4oqenzXQ==
+  /caniuse-lite/1.0.30001131:
+    dev: false
+    resolution:
+      integrity: sha512-4QYi6Mal4MMfQMSqGIRPGbKIbZygeN83QsWq1ixpUwvtfgAZot5BrCKzGygvZaV+CnELdTwD0S4cqUNozq7/Cw==
   /chai/4.2.0:
     dependencies:
       assertion-error: 1.1.0
@@ -2920,14 +2923,14 @@ packages:
     dev: false
     resolution:
       integrity: sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
-  /electron-to-chromium/1.3.527:
-    dev: false
-    resolution:
-      integrity: sha512-ZlB9ySKOnS4g2Ja/TWDz4Q79NZhKV+Vsgntg85zLN08t+QsN1hK/zeDrcqwysSfbfGRVtvai6QYMczeNNUUgUA==
   /electron-to-chromium/1.3.533:
     dev: true
     resolution:
       integrity: sha512-YqAL+NXOzjBnpY+dcOKDlZybJDCOzgsq4koW3fvyty/ldTmsb4QazZpOWmVvZ2m0t5jbBf7L0lIGU3BUipwG+A==
+  /electron-to-chromium/1.3.570:
+    dev: false
+    resolution:
+      integrity: sha512-Y6OCoVQgFQBP5py6A/06+yWxUZHDlNr/gNDGatjH8AZqXl8X0tE4LfjLJsXGz/JmWJz8a6K7bR1k+QzZ+k//fg==
   /elegant-spinner/1.0.1:
     dev: true
     engines:
@@ -3060,12 +3063,12 @@ packages:
       node: '>= 0.4'
     resolution:
       integrity: sha512-QCOllgZJtaUo9miYBcLChTUaHNjJF3PYs1VidD7AwiEj1kYxKeQTctLAezAOH5ZKRH0g2IgPn6KwB4IT8iRpvA==
-  /escalade/3.0.2:
+  /escalade/3.1.0:
     dev: false
     engines:
       node: '>=6'
     resolution:
-      integrity: sha512-gPYAU37hYCUhW5euPeR+Y74F7BL+IBsV93j5cvGriSaD1aG6MGsqsV1yamRdrWrb2j3aiZvb0X+UBOWpx3JWtQ==
+      integrity: sha512-mAk+hPSO8fLDkhV7V0dXazH5pDc6MrjBTPyD3VeKzxnVFjH1MIxbCdqGZB9O8+EwWakZs3ZCbDS4IpRt79V1ig==
   /escape-html/1.0.3:
     dev: false
     resolution:
@@ -5248,10 +5251,10 @@ packages:
     dev: false
     resolution:
       integrity: sha512-h/zcD8H9kaDZ9ALUWwlBUDo6TKF8a7qBSCSEGfjTVIYeqsioSKaAX+BN7NgiMGp6iSIXZ3PxgCu8KS3b71YK5Q==
-  /node-releases/1.1.60:
+  /node-releases/1.1.61:
     dev: false
     resolution:
-      integrity: sha512-gsO4vjEdQaTusZAEebUWp2a5d7dF5DYoIpDG7WySnk7BuZDW+GPpHXoXXuYawRBr/9t5q54tirPz79kFIWg4dA==
+      integrity: sha512-DD5vebQLg8jLCOzwupn954fbIiZht05DAZs0k2u8NStSe6h9XdsuIQL8hSRKYiU8WUQRznmSDrKGbv3ObOmC7g==
   /node-version/1.2.0:
     dev: true
     engines:
@@ -8221,7 +8224,7 @@ specifiers:
   '@types/yargs': ^15.0.5
   '@typescript-eslint/eslint-plugin': ^4.0.0
   '@typescript-eslint/parser': ^4.0.0
-  autoprefixer: ^9.8.6
+  autoprefixer: ^10.0.0
   browserslist-config-vue: ^1.0.3
   clipboardy: ^2.3.0
   consola: ^2.15.0
