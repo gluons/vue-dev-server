@@ -5,13 +5,11 @@
   "publishConfig": {
     "access": "public"
   },
-  "bin": {
-    "vue-dev-server": "./dist/bin.js",
-    "vds": "./dist/bin.js"
-  },
+  "bin": "./bin/vue-dev-server",
   "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",
   "files": [
+    "bin",
     "dist",
     "index.pug"
   ],
