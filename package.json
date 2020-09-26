@@ -16,6 +16,7 @@
     "index.pug"
   ],
   "scripts": {
+    "prepublishOnly": "npm run build",
     "prebuild": "del-cli dist/",
     "build": "tsc",
     "pretest": "npm run build",
