@@ -1,9 +1,10 @@
 # Vue Dev Server
 
 [![GitHub](https://img.shields.io/github/license/gluons/vue-dev-server?style=flat-square)](./LICENSE)
+[![npm](https://img.shields.io/npm/v/@gluons/vue-dev-server?style=flat-square)](https://www.npmjs.com/package/@gluons/vue-dev-server)
 ![GitHub top language](https://img.shields.io/github/languages/top/gluons/vue-dev-server?style=flat-square)
 [![Codacy branch grade](https://img.shields.io/codacy/grade/29cc5dc9c8ac4f5ca3ded76a0feda5ae/master?style=flat-square)](https://www.codacy.com/manual/gluons/vue-dev-server)
-![Travis (.com)](https://img.shields.io/travis/com/gluons/vue-dev-server?style=flat-square)
+[![Travis (.com)](https://img.shields.io/travis/com/gluons/vue-dev-server?style=flat-square)](https://travis-ci.com/github/gluons/vue-dev-server)
 
 A simple dev server for [Vue.js](https://vuejs.org/).
 
