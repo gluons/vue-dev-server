@@ -27,13 +27,15 @@ export default function getCSSUses(importLoaders = 1): RuleSetUseItem[] {
 		{
 			loader: 'postcss-loader',
 			options: {
-				plugins: [
-					autoprefixer({
-						overrideBrowserslist: [
-							'extends browserslist-config-vue'
-						]
-					})
-				],
+				postcssOptions: {
+					plugins: [
+						autoprefixer({
+							overrideBrowserslist: [
+								'extends browserslist-config-vue'
+							]
+						})
+					]
+				},
 				sourceMap: true
 			}
 		}
