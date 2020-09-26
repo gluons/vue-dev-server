@@ -11,6 +11,10 @@
   },
   "main": "./dist/index.js",
   "typings": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "index.pug"
+  ],
   "scripts": {
     "prebuild": "del-cli dist/",
     "build": "tsc",
