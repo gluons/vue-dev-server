@@ -46,7 +46,7 @@ devDependencies:
   testcafe: 1.9.3
   ts-node: 9.0.0_typescript@4.0.3
   tsconfig-gluons: 1.1.0_typescript@4.0.3
-  type-fest: 0.16.0
+  type-fest: 0.17.0
   typescript: 4.0.3
   vue: 2.6.12
   vue-style-loader: 4.1.2
@@ -7657,12 +7657,12 @@ packages:
       node: '>=10'
     resolution:
       integrity: sha512-34R7HTnG0XIJcBSn5XhDd7nNFPRcXYRZrBB2O2jdKqYODldSzBAqzsWoZYYvduky73toYS/ESqxPvkDf/F0XMg==
-  /type-fest/0.16.0:
+  /type-fest/0.17.0:
     dev: true
     engines:
       node: '>=10'
     resolution:
-      integrity: sha512-eaBzG6MxNzEn9kiwvtre90cXaNLkmadMWa1zQMs3XORCXNbsH/OewwbxC5ia9dCxIxnTAsSxXJaa/p5y8DlvJg==
+      integrity: sha512-EFi9HE4hHj85XnVV80uAUMgICQmhxYgiEvtmfpcD6jqn6zYr36HxAU6k+i/DSY28TK7/lYL0s4v/kWmiKdqaoA==
   /type-fest/0.6.0:
     dev: true
     engines:
@@ -8346,7 +8346,7 @@ specifiers:
   ts-loader: ^8.0.4
   ts-node: ^9.0.0
   tsconfig-gluons: ^1.1.0
-  type-fest: ^0.16.0
+  type-fest: ^0.17.0
   typescript: ^4.0.3
   vue: ^2.6.12
   vue-loader: ^15.9.3
