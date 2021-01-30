@@ -36,7 +36,7 @@ devDependencies:
   '@types/webpack': 4.41.22
   '@types/webpack-dev-server': 3.11.0
   '@types/webpackbar': 4.0.0
-  '@types/yargs': 15.0.7
+  '@types/yargs': 16.0.0
   '@typescript-eslint/eslint-plugin': 4.2.0_0d6e027e5aced4d334a249431fe3b66e
   '@typescript-eslint/parser': 4.2.0_eslint@7.9.0+typescript@4.0.3
   del-cli: 3.0.1
@@ -381,12 +381,12 @@ packages:
     dev: true
     resolution:
       integrity: sha512-FA/BWv8t8ZWJ+gEOnLLd8ygxH/2UFbAvgEonyfN6yWGLKc7zVjbpl2Y4CTjid9h2RfgPP6SEt6uHwEOply00yw==
-  /@types/yargs/15.0.7:
+  /@types/yargs/16.0.0:
     dependencies:
       '@types/yargs-parser': 15.0.0
     dev: true
     resolution:
-      integrity: sha512-Gf4u3EjaPNcC9cTu4/j2oN14nSVhr8PQ+BvBcBQHAhDZfl0bVIiLgvnRXv/dn58XhTm9UXvBpvJpDlwV65QxOA==
+      integrity: sha512-2nN6AGeMwe8+O6nO9ytQfbMQOJy65oi1yK2y/9oReR08DaXSGtMsrLyCM1ooKqfICpCx4oITaR4LkOmdzz41Ww==
   /@typescript-eslint/eslint-plugin/3.9.0_0e6c92cb8b5a0811b7ce40f3717a839c:
     dependencies:
       '@typescript-eslint/experimental-utils': 3.9.0_eslint@7.9.0+typescript@4.0.3
@@ -2429,12 +2429,12 @@ packages:
     resolution:
       integrity: sha1-Z29us8OZl8LuGsOpJP1hJHSPV40=
   /core-js/1.2.7:
-    deprecated: 'core-js@<3 is no longer maintained and not recommended for usage due to the number of issues. Please, upgrade your dependencies to the actual version of core-js@3.'
+    deprecated: core-js@<3 is no longer maintained and not recommended for usage due to the number of issues. Please, upgrade your dependencies to the actual version of core-js@3.
     dev: true
     resolution:
       integrity: sha1-ZSKUwUZR2yj6k70tX/KYOk8IxjY=
   /core-js/2.6.11:
-    deprecated: 'core-js@<3 is no longer maintained and not recommended for usage due to the number of issues. Please, upgrade your dependencies to the actual version of core-js@3.'
+    deprecated: core-js@<3 is no longer maintained and not recommended for usage due to the number of issues. Please, upgrade your dependencies to the actual version of core-js@3.
     dev: true
     requiresBuild: true
     resolution:
@@ -6492,7 +6492,7 @@ packages:
     resolution:
       integrity: sha512-pb/MYmXstAkysRFx8piNI1tGFNQIFA3vkE3Gq4EuA1dF6gHp/+vgZqsCGJapvy8N3Q+4o7FwvquPJcnZ7RYy4g==
   /resolve-url/0.2.1:
-    deprecated: 'https://github.com/lydell/resolve-url#deprecated'
+    deprecated: https://github.com/lydell/resolve-url#deprecated
     resolution:
       integrity: sha1-LGN/53yJOv0qZj/iGqkIAGjiBSo=
   /resolve/1.17.0:
@@ -7758,7 +7758,7 @@ packages:
     resolution:
       integrity: sha512-B0yRTzYdUCCn9n+F4+Gh4yIDtMQcaJsmYBDsTSG8g/OejKBodLQ2IHfN3bM7jUsRXndopT7OIXWdYqc1fjmV6g==
   /urix/0.1.0:
-    deprecated: 'Please see https://github.com/lydell/urix#deprecated'
+    deprecated: Please see https://github.com/lydell/urix#deprecated
     resolution:
       integrity: sha1-2pN/emLiH+wf0Y1Js1wpNQZ6bHI=
   /url-parse/1.4.7:
@@ -8314,7 +8314,7 @@ specifiers:
   '@types/webpack': ^4.41.22
   '@types/webpack-dev-server': ^3.11.0
   '@types/webpackbar': ^4.0.0
-  '@types/yargs': ^15.0.7
+  '@types/yargs': ^16.0.0
   '@typescript-eslint/eslint-plugin': ^4.2.0
   '@typescript-eslint/parser': ^4.2.0
   autoprefixer: ^10.0.0
