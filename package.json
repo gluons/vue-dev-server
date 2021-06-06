@@ -43,7 +43,7 @@
     "clipboardy": "^2.3.0",
     "consola": "^2.15.0",
     "cosmiconfig": "^7.0.0",
-    "css-loader": "^4.3.0",
+    "css-loader": "^5.0.0",
     "fibers": "^5.0.0",
     "friendly-errors-webpack-plugin": "^1.7.0",
     "html-webpack-plugin": "^4.5.0",
