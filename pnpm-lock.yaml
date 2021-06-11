@@ -6,7 +6,7 @@ specifiers:
   '@types/autoprefixer': ^9.7.2
   '@types/friendly-errors-webpack-plugin': ^0.1.2
   '@types/lodash.defaults': ^4.2.6
-  '@types/node': ^12.12.62
+  '@types/node': ^14.0.0
   '@types/webpack': ^4.41.22
   '@types/webpack-dev-server': ^3.11.0
   '@types/webpackbar': ^4.0.0
@@ -87,7 +87,7 @@ devDependencies:
   '@types/autoprefixer': 9.7.2
   '@types/friendly-errors-webpack-plugin': 0.1.2
   '@types/lodash.defaults': 4.2.6
-  '@types/node': 12.12.62
+  '@types/node': 14.17.3
   '@types/webpack': 4.41.22
   '@types/webpack-dev-server': 3.11.0
   '@types/webpackbar': 4.0.0
@@ -348,6 +348,10 @@ packages:
 
   /@types/node/12.12.62:
     resolution: {integrity: sha512-qAfo81CsD7yQIM9mVyh6B/U47li5g7cfpVQEDMfQeF8pSZVwzbhwU3crc0qG4DmpsebpJPR49AKOExQyJ05Cpg==}
+
+  /@types/node/14.17.3:
+    resolution: {integrity: sha512-e6ZowgGJmTuXa3GyaPbTGxX17tnThl2aSSizrFthQ7m9uLGZBXiGhgE55cjRZTF5kjZvYn9EOPOMljdjwbflxw==}
+    dev: true
 
   /@types/normalize-package-data/2.4.0:
     resolution: {integrity: sha512-f5j5b/Gf71L+dbqxIpQ4Z2WlmI/mPJ0fOkGGmFgtb6sAu97EPczzbS3/tJKxmcYDj55OX6ssqwDAWOHIYDRDGA==}
