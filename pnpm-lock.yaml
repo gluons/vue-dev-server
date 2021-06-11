@@ -36,7 +36,7 @@ specifiers:
   pug-plain-loader: ^1.0.0
   sass: ^1.26.11
   sass-loader: ^10.0.2
-  terminal-link: ^2.1.1
+  terminal-link: ^3.0.0
   testcafe: ^1.9.3
   ts-loader: ^8.0.4
   ts-node: ^9.0.0
@@ -73,7 +73,7 @@ dependencies:
   pug-plain-loader: 1.0.0_pug@3.0.0
   sass: 1.26.11
   sass-loader: 10.0.2_597076e61af371bcdbfea7e7abf07876
-  terminal-link: 2.1.1
+  terminal-link: 3.0.0
   ts-loader: 8.0.4_typescript@4.0.3
   vue-loader: 15.9.3_7f4808b0f9dca63466855efcb5cfea90
   vue-template-compiler: 2.6.12
@@ -888,6 +888,13 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       type-fest: 0.11.0
+    dev: false
+
+  /ansi-escapes/5.0.0:
+    resolution: {integrity: sha512-5GFMVX8HqE/TB+FuBJGuO5XG0WrsA6ptUqoODaT/n9mmUaZFkqnBueB4leqGBCmrUHnCnC4PCZTCd0E7QQ83bA==}
+    engines: {node: '>=12'}
+    dependencies:
+      type-fest: 1.2.0
     dev: false
 
   /ansi-html/0.0.7:
@@ -6764,26 +6771,18 @@ packages:
     dependencies:
       has-flag: 3.0.0
 
-  /supports-color/7.1.0:
-    resolution: {integrity: sha512-oRSIpR8pxT1Wr2FquTNnGet79b3BWljqOuoW/h4oBhxJ/HUbX5nX6JSruTkvXDCFMwDPvsaTTbvMLKZWSy0R5g==}
-    engines: {node: '>=8'}
-    dependencies:
-      has-flag: 4.0.0
-    dev: false
-
   /supports-color/7.2.0:
     resolution: {integrity: sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==}
     engines: {node: '>=8'}
     dependencies:
       has-flag: 4.0.0
-    dev: true
 
-  /supports-hyperlinks/2.1.0:
-    resolution: {integrity: sha512-zoE5/e+dnEijk6ASB6/qrK+oYdm2do1hjoLWrqUC/8WEIW1gbxFcKuBof7sW8ArN6e+AYvsE8HBGiVRWL/F5CA==}
+  /supports-hyperlinks/2.2.0:
+    resolution: {integrity: sha512-6sXEzV5+I5j8Bmq9/vUphGRM/RJNT9SCURJLjwfOg51heRtguGWDzcaBlgAzKhQa0EVNpPEKzQuBwZ8S8WaCeQ==}
     engines: {node: '>=8'}
     dependencies:
       has-flag: 4.0.0
-      supports-color: 7.1.0
+      supports-color: 7.2.0
     dev: false
 
   /table/5.4.6:
@@ -6801,12 +6800,12 @@ packages:
     engines: {node: '>=6'}
     dev: false
 
-  /terminal-link/2.1.1:
-    resolution: {integrity: sha512-un0FmiRUQNr5PJqy9kP7c40F5BOfpGlYTrxonDChEZB7pzZxRNp/bt+ymiy9/npwXya9KH99nJ/GXFIiUkYGFQ==}
-    engines: {node: '>=8'}
+  /terminal-link/3.0.0:
+    resolution: {integrity: sha512-flFL3m4wuixmf6IfhFJd1YPiLiMuxEc8uHRM1buzIeZPm22Au2pDqBJQgdo7n1WfPU1ONFGv7YDwpFBmHGF6lg==}
+    engines: {node: '>=12'}
     dependencies:
-      ansi-escapes: 4.3.1
-      supports-hyperlinks: 2.1.0
+      ansi-escapes: 5.0.0
+      supports-hyperlinks: 2.2.0
     dev: false
 
   /terser-webpack-plugin/1.4.5_webpack@4.44.2:
@@ -7235,6 +7234,11 @@ packages:
     resolution: {integrity: sha512-4dbzIzqvjtgiM5rw1k5rEHtBANKmdudhGyBEajN01fEyhaAIhsoKNy6y7+IN93IfpFtwY9iqi7kD+xwKhQsNJA==}
     engines: {node: '>=8'}
     dev: true
+
+  /type-fest/1.2.0:
+    resolution: {integrity: sha512-++0N6KyAj0t2webXst0PE0xuXb4Dv3z1Z+4SGzK+j/epeWBZCfkQbkW/ezscZwpinmBQ5wu/l4TqagKSVcAGCA==}
+    engines: {node: '>=10'}
+    dev: false
 
   /type-is/1.6.18:
     resolution: {integrity: sha512-TkRKr9sUTxEH8MdfuCSP7VizJyzRNMjj2J2do2Jr3Kym598JVdEksuzPQCnlFPW4ky9Q+iA+ma9BGm06XQBy8g==}
