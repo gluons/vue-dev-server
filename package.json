@@ -64,7 +64,7 @@
     "webpack": "^4.44.2",
     "webpack-dev-server": "^3.11.0",
     "webpackbar": "^4.0.0",
-    "yargs": "^16.0.3"
+    "yargs": "^17.0.0"
   },
   "devDependencies": {
     "@gluons/prettier-config": "^2.0.6",
@@ -75,7 +75,7 @@
     "@types/webpack": "^4.41.22",
     "@types/webpack-dev-server": "^3.11.0",
     "@types/webpackbar": "^4.0.0",
-    "@types/yargs": "^15.0.7",
+    "@types/yargs": "^17.0.0",
     "@typescript-eslint/eslint-plugin": "^4.2.0",
     "@typescript-eslint/parser": "^4.2.0",
     "del-cli": "^3.0.1",
