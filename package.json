@@ -78,7 +78,7 @@
     "@types/yargs": "^15.0.7",
     "@typescript-eslint/eslint-plugin": "^4.2.0",
     "@typescript-eslint/parser": "^4.2.0",
-    "del-cli": "^3.0.1",
+    "del-cli": "^4.0.0",
     "eslint": "^7.9.0",
     "eslint-config-gluons": "^6.0.5",
     "prettier": "^2.1.2",
