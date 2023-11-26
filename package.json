@@ -41,7 +41,7 @@
     "autoprefixer": "^10.0.0",
     "browserslist-config-vue": "^1.0.3",
     "clipboardy": "^2.3.0",
-    "consola": "^2.15.0",
+    "consola": "^3.0.0",
     "cosmiconfig": "^7.0.0",
     "css-loader": "^4.3.0",
     "fibers": "^5.0.0",
