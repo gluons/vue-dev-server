@@ -62,7 +62,7 @@
     "vue-loader": "^15.9.3",
     "vue-template-compiler": "^2.6.12",
     "webpack": "^4.44.2",
-    "webpack-dev-server": "^3.11.0",
+    "webpack-dev-server": "^5.2.1",
     "webpackbar": "^4.0.0",
     "yargs": "^16.0.3"
   },
